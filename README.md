@@ -205,7 +205,7 @@ The Streamlit app opens at `http://localhost:8501`.
 
 ---
 
-## 📡 API Reference
+##  API Reference
 
 ### `POST /analyze`
 
@@ -250,24 +250,7 @@ Analyze a moral dilemma across all philosophical frameworks.
 
 ---
 
-## 🧪 Example Dilemmas to Try
 
-```
-🚗  The Trolley Problem — classic utilitarian vs. deontological conflict
-
-🏥  A doctor can save 5 patients by harvesting organs from one healthy person.
-    Should they?
-
-🤫  Your friend confides they are cheating on their partner.
-    Do you have an obligation to tell the truth?
-
-🌍  A corporation can profit greatly from a practice that causes
-    minor harm to millions of people. Is this justified?
-
-⚔️  Is it ever morally permissible to lie to protect someone you love?
-```
-
----
 
 
 <div align="center">
