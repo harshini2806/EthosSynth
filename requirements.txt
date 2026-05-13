@@ -16,3 +16,5 @@ python-dotenv==1.0.1
 
 # Standard HTTP for Streamlit → FastAPI calls
 requests==2.32.2
+
+huggingface-hub
