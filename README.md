@@ -18,8 +18,6 @@
 
 <br/>
 
-[🚀 Live Demo](#-live-demo) · [📖 Docs](#-getting-started) · [🧠 Philosophies](#-supported-philosophical-frameworks) · [🏗️ Architecture](#-architecture)
-
 </div>
 
 ---
