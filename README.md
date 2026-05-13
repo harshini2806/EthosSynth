@@ -75,34 +75,34 @@ API Docs (Swagger):    https://ethos-synth-api.onrender.com/docs
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│                   User Interface                     │
-│              Streamlit Frontend (UI)                 │
+│                   User Interface                    │
+│              Streamlit Frontend (UI)                │
 └───────────────────────┬─────────────────────────────┘
                         │ HTTP POST /analyze
                         ▼
 ┌─────────────────────────────────────────────────────┐
-│                FastAPI Backend                       │
-│           Request validation (Pydantic)              │
+│                FastAPI Backend                      │
+│           Request validation (Pydantic)             │
 └───────────────────────┬─────────────────────────────┘
                         │
                         ▼
 ┌─────────────────────────────────────────────────────┐
-│            AI Reasoning Pipeline                     │
-│    analyzer.py — asyncio parallel execution          │
-│                                                      │
-│   ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐    │
-│   │Util. │ │Kant. │ │Stoic │ │Virt. │ │Exist.│    │
-│   └──┬───┘ └──┬───┘ └──┬───┘ └──┬───┘ └──┬───┘    │
+│            AI Reasoning Pipeline                    │
+│    analyzer.py — asyncio parallel execution         │
+│                                                     │
+│   ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐      │
+│   │Util. │ │Kant. │ │Stoic │ │Virt. │ │Exist.│      │
+│   └──┬───┘ └──┬───┘ └──┬───┘ └──┬───┘ └──┬───┘      │
 │      └────────┴────────┴────────┴─────────┘         │
-│                        │ asyncio.gather()            │
-│                        ▼                             │
-│              Comparative Synthesis                   │
+│                        │ asyncio.gather()           │
+│                        ▼                            │
+│              Comparative Synthesis                  │
 └───────────────────────┬─────────────────────────────┘
                         │
                         ▼
 ┌─────────────────────────────────────────────────────┐
-│        HuggingFace Inference API                     │
-│        Qwen2.5 / Mistral LLM                         │
+│        HuggingFace Inference API                    │
+│        Qwen2.5 / Mistral LLM                        │
 └─────────────────────────────────────────────────────┘
                         │
                         ▼
