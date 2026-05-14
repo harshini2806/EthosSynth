@@ -46,7 +46,7 @@ Whether you're a student exploring moral philosophy, a researcher studying AI et
 
 | Philosophy | Core Principle |
 |---|---|
-| ⚡ **Utilitarianism** | Greatest good for the greatest number |
+|  **Utilitarianism** | Greatest good for the greatest number |
 |  **Kantian Ethics** | Duty, universalizability, and the categorical imperative |
 |  **Stoicism** | Virtue, reason, and what lies within your control |
 |  **Virtue Ethics** | Character-based morality and human flourishing |
