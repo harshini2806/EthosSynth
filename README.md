@@ -34,7 +34,7 @@ Paste in any ethical dilemma — real or hypothetical — and EthosSynth will:
 Whether you're a student exploring moral philosophy, a researcher studying AI ethics, or someone wrestling with a real-world decision, EthosSynth gives you a rigorous multi-perspective breakdown — instantly.
 
 ---
-## 🖥️ UI Preview
+##  UI Preview
 
 ### Home Page
 ![Home](assets/img1.png)
@@ -62,7 +62,7 @@ Whether you're a student exploring moral philosophy, a researcher studying AI et
 >  Deployed on **HuggingFace Spaces** + **Render**
 
 ```
-Frontend (Streamlit):  https://huggingface.co/spaces/<your-username>/ethos-synth
+Frontend (Streamlit):  https://huggingface.co/spaces/hrshmrli/EthosSynth
 Backend  (FastAPI):    https://ethos-synth-api.onrender.com
 API Docs (Swagger):    https://ethos-synth-api.onrender.com/docs
 ```
